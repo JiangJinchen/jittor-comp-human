@@ -235,11 +235,15 @@ def batch_process_directories(input_root, output_img_dir=None, export_image=True
         print(f"  - Subfolder {subdir_path} processing completed, {success_count}/{processed_count} files succeeded\n")
     
     if processed_files and dataset_root:
-        list_file_path = os.path.join(dataset_root, "post_process_test_list.txt")
-        with open(list_file_path, 'w') as f:
-            for file_path in processed_files:
-                f.write(f"{file_path}\n")
-        print(f"Post process list generated: {list_file_path}, total {len(processed_files)} files")
+    
+        list_file_path = os.path.join(dataset_root, "test_list.txt")
+        try:
+            with open(list_file_path, 'a') as f: 
+                for file_path in processed_files:
+                    f.write(f"{file_path}\n")
+            print(f"Paths appended to existing file: {list_file_path}, total {len(processed_files)} entries")
+        except Exception as e:
+            print(f"Error appending to file: {e}")
     
     print(f"Batch processing completed: Checked {total_count} files, processed {processed_count} eligible files, {success_count} succeeded")
     return processed_files
