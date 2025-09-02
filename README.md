@@ -217,6 +217,17 @@ python transfer_skin.py
 
 ## 7. B榜动画结果展示  
 为直观体现算法对任意姿态人体模型的关节预测与蒙皮绑定效果，以下是B榜关键动画结果的可视化展示，包含3组代表性动态姿态的渲染动画（对应 Mixamo/Vroid 数据集下不同 ID 的复杂姿态模型）：  
-![Mixamo姿态动画](Mixamo-3176-Swing_Dancing_1.gif)
-![Mixamo姿态动画](Vroid-2023-Zombie_Turn.gif)
-![Vroid姿态动画](Mixamo-3172-Strafe.gif)
+<div align="center">
+  <img src="Mixamo-3176-Swing_Dancing_1.gif" alt="Mixamo-3176" width="600">
+  <p>Mixamo-3176-Swing_Dancing_1</p>
+</div>
+
+<div align="center">
+  <img src="Vroid-2023-Zombie_Turn.gif" alt="Vroid-2023" width="600">
+  <p>Vroid-2023-Zombie_Turn</p>
+</div>
+
+<div align="center">
+  <img src="Mixamo-3172-Strafe.gif" alt="Mixamo-3172" width="600">
+  <p>Mixamo-3172-Strafe</p>
+</div>
