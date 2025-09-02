@@ -239,6 +239,7 @@ def batch_process_directories(input_root, output_img_dir=None, export_image=True
         list_file_path = os.path.join(dataset_root, "test_list.txt")
         try:
             with open(list_file_path, 'a') as f: 
+                f.write(f"\n")
                 for file_path in processed_files:
                     f.write(f"{file_path}\n")
             print(f"Paths appended to existing file: {list_file_path}, total {len(processed_files)} entries")
@@ -265,3 +266,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
