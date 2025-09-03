@@ -223,8 +223,8 @@ python transfer_skin.py
 </div>
 
 <div align="center">
-  <img src="Vroid-2023-Zombie_Turn.gif" alt="Vroid-2023" width="600">
-  <p>Vroid-2023-Zombie_Turn</p>
+  <img src="Mixamo-3187-Scissor_Kick.gif" alt="Vroid-2023" width="600">
+  <p>Mixamo-3187-Scissor_Kick</p>
 </div>
 
 <div align="center">
