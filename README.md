@@ -1,4 +1,4 @@
-# jittor-comp-human
+# Skeleton and Skin Weight Prediction for 3D Human Meshes via PCT/PCAE Models (Jittor Implementation)
 
 ## 1. 团队信息  
 **队名**：赛博骨骼  
